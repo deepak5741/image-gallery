@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.HomeHolder{
+/* background-color: blueviolet; */
+width: 100%;
+height: 90vh;
+
+ /* background-color: rgb(240, 84, 115);  */
+background-color: rgb(245, 245, 53);
+}
+
+.imgHolder{
+width: 100%;
+height: 90vh;
+
+}
+
+.laptop{
+width: 50%;
+
+height: 500px;
+position: relative;
+left: 300px;
+top: 15%;
+}
+
+.qoute{
+position: absolute;
+left: 28%;
+top: 15%;
+font-family: 'Staatliches', cursive;
+word-spacing: 4px;
+letter-spacing: 1px;
+transition: all ease .8s;
+
+}
+
+.qoute:hover{
+color: #fff;
+
+text-shadow: 3px 5px  2px   black;
+
+}
+
+.innerLap{
+    text-align: center;
+    width: 375px;
+    height: 200px;
+    font-family: 'Staatliches', cursive;
+position: absolute;
+left: 33%;
+bottom: 25%;
+}
+.btPack{
+    margin-top: 40px;
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkedin ,.github{
+border: 0;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+padding: 7px;
+color: #fff;
+border-radius: 5px;
+}
+
+.linkedin:hover,.github:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.li{
+width: 24px;
+height: 24px;
+}
+
+.li:hover{
+
+}
+.git{
+width: 24px;
+height: 24px;
+}
